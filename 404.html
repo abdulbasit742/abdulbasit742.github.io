@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Page not found — Abdul Basit</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    .error-page{min-height:100svh;display:grid;place-items:center;padding:24px}
+    .error-card{width:min(720px,100%);padding:clamp(36px,8vw,80px);border:1px solid var(--line);border-radius:var(--radius-lg);background:var(--surface);text-align:center;box-shadow:var(--shadow)}
+    .error-code{margin:0;color:var(--accent);font:800 clamp(4rem,15vw,8rem)/1 ui-monospace,SFMono-Regular,Menlo,monospace}
+    .error-card h1{margin:18px 0 12px;font-size:clamp(2rem,5vw,3.6rem);letter-spacing:-.05em}
+    .error-card p{margin:0 auto 28px;max-width:520px;color:var(--text-soft)}
+  </style>
+</head>
+<body>
+  <main class="error-page">
+    <section class="error-card" aria-labelledby="error-title">
+      <p class="error-code">404</p>
+      <h1 id="error-title">This path does not exist.</h1>
+      <p>The page may have moved, or the address may be incomplete.</p>
+      <a class="button button-primary" href="/">Return home</a>
+    </section>
+  </main>
+</body>
+</html>
